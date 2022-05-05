@@ -53,7 +53,73 @@ img{
     margin-left:100px;
     margin-right: 100px;
 }
-.image1{
-    margin:auto;
-    margin-left: px;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+    margin-left: 36px;
+    
+
+}
+.logo{
+    padding: 36px; ;
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+h4{
+    font-size: 20 px;
+}
+p{
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+}
+#color-change{
+    color: #ff9301;
+}
+.content1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+img{
+    
+    object-fit: contain;
+    aspect-ratio: unset;
+    margin-left:100px;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        flex-direction: column;
+    }
+    .content1{
+        width: fit-content;
+        padding: 0px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+
+
+    }
 }
